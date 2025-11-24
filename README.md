@@ -27,7 +27,7 @@ After mastering traditional three-tier architecture in Project 2, I'm now diving
 
 | Phase | Status | Date | Notes & Learnings |
 | :--- | :---: | :---: | :--- |
-| **Phase 0: Project Setup** | ✅ | 23/11/2025 | Created GitHub repository with complete documentation and code structure. Ready for manual deployment. |
+| **Phase 0: Project Setup** | ✅ | 24/11/2025 | Created GitHub repository with complete documentation and code structure. Ready for manual deployment. |
 | **Phase 1: Manual Deployment** | 🔄 | | *Creating DynamoDB table and Lambda functions...* |
 | **Phase 2: API Gateway Setup** | ❌ | | |
 | **Phase 3: Testing & Validation** | ❌ | | |
