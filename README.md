@@ -42,14 +42,37 @@ graph TB
     class DYNAMO db
 
 
-- **API Gateway** → **Lambda Functions** → **DynamoDB**
-- Four endpoints: GET /tasks, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id
-- Serverless, auto-scaling, cost-effective
+
+**Components:**
+- **API Gateway**: REST API endpoints
+- **Lambda Functions**: 4 functions for CRUD operations  
+- **DynamoDB**: NoSQL database for task storage
+
+## 📋 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/tasks` | List all tasks |
+| POST | `/tasks` | Create a new task |
+| PUT | `/tasks/{id}` | Update a task |
+| DELETE | `/tasks/{id}` | Delete a task |
 
 ## 🚀 Implementation Progress
 
-| Phase | Status | Date |
-|-------|--------|------|
-| Project Setup | ✅ | 23/11/2025 |
-| Manual Deployment | 🔄 | |
-| API Gateway Setup | ❌ | |
+| Phase | Status | Date | Notes & Learnings |
+| :--- | :---: | :---: | :--- |
+| **Phase 0: Project Setup** | ✅ | 23/11/2025 | Created GitHub repository with complete documentation and code structure. Ready for manual deployment. |
+| **Phase 1: Manual Deployment** | 🔄 | | *Creating DynamoDB table and Lambda functions...* |
+| **Phase 2: API Gateway Setup** | ❌ | | |
+| **Phase 3: Testing & Validation** | ❌ | | |
+| **Phase 4: Terraform Conversion** | ❌ | | |
+
+## 🛠️ Technologies & AWS Services
+
+- **Compute:** AWS Lambda
+- **API Management:** Amazon API Gateway  
+- **Database:** Amazon DynamoDB
+- **Infrastructure:** Terraform (Future)
+- **Runtime:** Node.js 18.x
+
+## 📂 Repository Structure
