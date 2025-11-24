@@ -41,6 +41,7 @@ graph TB
     class LAMBDA_GET,LAMBDA_CREATE,LAMBDA_UPDATE,LAMBDA_DELETE lambda
     class DYNAMO db
 
+
 - **API Gateway** → **Lambda Functions** → **DynamoDB**
 - Four endpoints: GET /tasks, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id
 - Serverless, auto-scaling, cost-effective
