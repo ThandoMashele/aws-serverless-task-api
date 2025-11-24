@@ -40,3 +40,15 @@ graph TB
     class APIGW api
     class LAMBDA_GET,LAMBDA_CREATE,LAMBDA_UPDATE,LAMBDA_DELETE lambda
     class DYNAMO db
+
+- **API Gateway** → **Lambda Functions** → **DynamoDB**
+- Four endpoints: GET /tasks, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id
+- Serverless, auto-scaling, cost-effective
+
+## 🚀 Implementation Progress
+
+| Phase | Status | Date |
+|-------|--------|------|
+| Project Setup | ✅ | 23/11/2025 |
+| Manual Deployment | 🔄 | |
+| API Gateway Setup | ❌ | |
